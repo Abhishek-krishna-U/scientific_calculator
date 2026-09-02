@@ -44,12 +44,12 @@ function gamma(z) {
     }
 }
 
-// Your updated factorial function
+//  updated factorial function
 function factorial(n) {
     // Factorials for negative integers are undefined
     if (n < 0 && Number.isInteger(n)) return NaN; 
     
-    // Use your exact loop for whole numbers (more precise for integers)
+    // Use  exact loop for whole numbers (more precise for integers)
     if (Number.isInteger(n)) {
         if (n === 0 || n === 1) return 1;
         let res = 1;
